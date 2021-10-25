@@ -2,7 +2,7 @@ import importlib.util
 def check_module(mod):
    spec = importlib.util.find_spec(mod)
    if spec is None:
-      print('Modules: {} not found'.format(mod))
+      print('Modules: {} not founded'.format(mod))
       return None
    else:
       print('Module: {} can be imported!'.format(mod))
